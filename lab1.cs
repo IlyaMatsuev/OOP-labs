@@ -158,29 +158,26 @@ namespace ConsoleApp1
             if (kortege.toolong > newkortege.Item5)
                 Console.WriteLine("в первом число больше((");
 
+            System.ValueTuple<int[], char> localfunc(int[] numbers, string testStr)
+            {
+                int max = int.MinValue, min = int.MaxValue, sum = 0;
+                foreach (int el in numbers)
+                {
+                    sum += el;
+                    if (el > max)
+                        max = el;
+                    if (el < min)
+                        min = el;
+                }
+                (int[], char) result = (new int[] { min, max, sum }, testStr[0]);
+                return result;
+            }
+
             var resultOfFunc = localfunc(new int[] { 1, 2, 3, 4 }, "test");
             Console.WriteLine(resultOfFunc.Item1[0]);
             Console.WriteLine(resultOfFunc.Item1[1]);
             Console.WriteLine(resultOfFunc.Item1[2]);
             Console.WriteLine(resultOfFunc.Item2);
-
-
-
-        }
-
-        static System.ValueTuple<int[], char> localfunc(int[] numbers, string testStr)
-        {
-            int max = int.MinValue, min = int.MaxValue, sum = 0;
-            foreach(int el in numbers)
-            {
-                sum += el;
-                if (el > max)
-                    max = el;
-                if (el < min)
-                    min = el;
-            }
-            (int[], char) result = (new int[]{min, max, sum}, testStr[0]);
-            return result;
         }
     }
 }
