@@ -19,7 +19,6 @@ namespace lab3
                                                      new Airline("Minsk", 9)
                                                     };
             Airline.showInf();
-
             Console.WriteLine("Список рейсов для Kiev: ");
             foreach(Airline flight in ListOfFlights)
             {
@@ -32,6 +31,10 @@ namespace lab3
                 if(flight.DAY == Airline.weekDays.sun)
                     Console.WriteLine(flight.NUMOFFLIGHT + "\t" + flight.TYPEOFPLANE + "\t" + flight.DESTINATION + "___________________" + flight.SEASON);
             }
+            var user = new {Name = "dddd" };
+            Console.WriteLine(user.Name);
+            Console.WriteLine(Equals(ListOfFlights[0], ListOfFlights[1]));
+            Console.WriteLine(ListOfFlights.Equals(ListOfFlights));
         }
     }
 
