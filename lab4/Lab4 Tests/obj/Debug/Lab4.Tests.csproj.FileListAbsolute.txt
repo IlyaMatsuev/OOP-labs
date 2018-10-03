@@ -1,0 +1,20 @@
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\Lab4 Tests.dll
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\Lab4 Tests.pdb
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\lab4.exe
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\lab4.pdb
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\lab4.exe.config
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\obj\Debug\Lab4.Tests.csprojAssemblyReference.cache
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\obj\Debug\Lab4.Tests.csproj.CoreCompileInputs.cache
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\obj\Debug\Lab4.Tests.csproj.CopyComplete
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\obj\Debug\Lab4 Tests.dll
+D:\university\2 curse\ооп\4\lab4\Lab4 Tests\obj\Debug\Lab4 Tests.pdb
