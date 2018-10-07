@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LAB5
 {
-    class Boat : Ship
+    sealed class Boat : Ship
     {
         public Boat(double Carrying, string CaptainName, string ShipType)
             : base(Carrying, CaptainName, ShipType)
@@ -15,5 +15,6 @@ namespace LAB5
         }
 
         public override void Move() => Console.WriteLine("Anyway better than nothing");
+        public override string ToString() => "Boat";
     }
 }

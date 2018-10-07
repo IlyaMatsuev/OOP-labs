@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LAB5
 {
-    class Corvette : Ship
+    sealed class Corvette : Ship
     {
         public int Weapon { get; set; }
 
@@ -17,6 +17,7 @@ namespace LAB5
             ToWater();
         }
 
+        public override string ToString() => "Corvette";
         public override void Move() => Console.WriteLine("I have never had so much power");
         public override void GetVehicleInf()
         {

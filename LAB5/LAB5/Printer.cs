@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace LAB5
 {
-    interface ICaptain
+    class Printer
     {
-        string CaptainName { get; set; }
-        void OneNameMethod();
+        public static void iAmPrinting(ICaptain cap) => Console.WriteLine(cap.ToString());
     }
 }

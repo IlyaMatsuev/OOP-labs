@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LAB5
 {
-    abstract class Ship : IVehicle, ICaptain
+    abstract class Ship : Object, IVehicle, ICaptain
     {
         public string VehicleName { get; set; }
         public double Carrying { get; set; }
@@ -27,5 +27,12 @@ namespace LAB5
             this.CaptainName = CaptainName;
             this.ShipType = ShipType;
         }
+
+        void ICaptain.OneNameMethod() => Console.WriteLine("Hi, i'm from Captain interface!");
+        void IVehicle.OneNameMethod() => Console.WriteLine("Hi, i'm from Vehicle interface!");
+
+        public override string ToString() => base.ToString() + " - ToString in Ship";
+        public override bool Equals(object obj) => !base.Equals(obj);
+        public override int GetHashCode() => 0;
     }
 }

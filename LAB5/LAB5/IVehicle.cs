@@ -12,5 +12,6 @@ namespace LAB5
         double Carrying { get; set; }
 
         void GetVehicleInf();
+        void OneNameMethod();
     }
 }

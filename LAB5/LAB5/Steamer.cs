@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace LAB5
 {
-    class Steamer : Ship
+    sealed class Steamer : Ship
     {
         public Steamer(double Carrying, string CaptainName, string ShipType)
             :base(Carrying, CaptainName, ShipType)
         {
             ToWater();
         }
+
         public override void Move() => Console.WriteLine("So much stream and so low");
+        public override string ToString() => "Steamer";
     }
 }

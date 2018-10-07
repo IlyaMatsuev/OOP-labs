@@ -48,6 +48,7 @@
     <Compile Include="ICaptain.cs" />
     <Compile Include="IVehicle.cs" />
     <Compile Include="Lab5.cs" />
+    <Compile Include="Printer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sailboat.cs" />
     <Compile Include="Ship.cs" />

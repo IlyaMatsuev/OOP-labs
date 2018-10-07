@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace LAB5
 {
-    class Sailboat : Ship
+    sealed class Sailboat : Ship
     {
         public Sailboat(double Carrying, string CaptainName, string ShipType)
             : base(Carrying, CaptainName, ShipType)
         {
             ToWater();
         }
+
         public override void Move() => Console.WriteLine("Hold your nose to the wind");
+        public override string ToString() => "Sailboat";
     }
 }
