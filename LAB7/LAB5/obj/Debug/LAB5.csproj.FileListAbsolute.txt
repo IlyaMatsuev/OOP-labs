@@ -5,3 +5,10 @@ D:\university\2 curse\ооп\5\LAB5\LAB5\obj\Debug\LAB5.csprojAssemblyReference.
 D:\university\2 curse\ооп\5\LAB5\LAB5\obj\Debug\LAB5.csproj.CoreCompileInputs.cache
 D:\university\2 curse\ооп\5\LAB5\LAB5\obj\Debug\LAB5.exe
 D:\university\2 curse\ооп\5\LAB5\LAB5\obj\Debug\LAB5.pdb
+D:\university\2 curse\ооп\7\LAB7\LAB5\bin\Debug\LAB5.exe.config
+D:\university\2 curse\ооп\7\LAB7\LAB5\bin\Debug\LAB5.exe
+D:\university\2 curse\ооп\7\LAB7\LAB5\bin\Debug\LAB5.pdb
+D:\university\2 curse\ооп\7\LAB7\LAB5\obj\Debug\LAB5.csprojAssemblyReference.cache
+D:\university\2 curse\ооп\7\LAB7\LAB5\obj\Debug\LAB5.csproj.CoreCompileInputs.cache
+D:\university\2 curse\ооп\7\LAB7\LAB5\obj\Debug\LAB5.exe
+D:\university\2 curse\ооп\7\LAB7\LAB5\obj\Debug\LAB5.pdb

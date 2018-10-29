@@ -73,11 +73,12 @@ namespace LAB5
                 Port port1 = new Port(2);
                 port1[0] = new Boat(44, "Ilya", 18, 0.45F);
                 port1[1] = new Boat(777, "Ilya", 28, 0.65F);
-                PortController.CalculateDisplacement(port1);
+                //PortController.CalculateDisplacement(port1);
+                throw new Exception("new standard exception");
             }
-            catch(StackOverflowException exception)
+            catch(Exception exception)
             {
-                Console.WriteLine();
+                Console.WriteLine(exception.Message);
             }
             finally
             {
