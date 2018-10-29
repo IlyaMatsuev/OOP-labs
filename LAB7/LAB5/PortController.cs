@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,21 +14,22 @@ namespace LAB5
             double displacement = 0;
             double draft = 6.5F;
             double width = 14;
-            double delta = 0.45F;
-            double result = draft * width * delta;
-            foreach(Ship ship in port.GetShips())
+            foreach (Ship ship in port.GetShips())
                 if (ship.ToString() == "Sailboat")
-                    displacement += result;
+                    displacement += draft * width * ship.Delta;
+            Debug.Assert(displacement != 0, "В порту нет парусников?((");
             return displacement;
         }
 
         public static uint SteamerSeats(Port port)
         {
             uint seats = 0;
-            uint seatsOnSteamer = 10;
             foreach (Ship ship in port.GetShips())
-                if (ship.ToString() == "Steamer")
-                    seats += seatsOnSteamer;
+            {
+                Steamer steamer = ship as Steamer;
+                if (steamer != null)
+                    seats += steamer.Seats;
+            }
             return seats;
         }
 

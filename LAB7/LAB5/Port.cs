@@ -7,31 +7,8 @@ using System.ComponentModel;
 
 namespace LAB5
 {
-    class Port
+    partial class Port
     {
-        private static Ship[] shipsArr;
-        private int maxIndex;
-
-        public Ship this[int index]
-        {
-            get
-            {
-                if (index > maxIndex)
-                {
-                    Console.WriteLine("Превышен максимальный индекс массива кораблей");
-                    return null;
-                }
-                return shipsArr[index];
-            }
-            set
-            {
-                if (index > maxIndex)
-                    Console.WriteLine("Элемента с таким индексом не существует");
-                else
-                    shipsArr[index] = value;
-            }
-        }
-
         public Port(int maxIndex)
         {
             this.maxIndex = maxIndex - 1;

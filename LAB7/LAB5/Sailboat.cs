@@ -8,8 +8,8 @@ namespace LAB5
 {
     sealed class Sailboat : Ship
     {
-        public Sailboat(double Carrying, string CaptainName, uint CaptainAge)
-            : base(Carrying, CaptainName, CaptainAge)
+        public Sailboat(double Carrying, string CaptainName, uint CaptainAge, double Delta)
+            : base(Carrying, CaptainName, CaptainAge, Delta)
         {
             ToWater();
         }

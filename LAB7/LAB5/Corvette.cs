@@ -10,8 +10,8 @@ namespace LAB5
     {
         public int Weapon { get; set; }
 
-        public Corvette(double Carrying, string CaptainName, uint CaptainAge, int Weapon)
-            : base(Carrying, CaptainName, CaptainAge)
+        public Corvette(double Carrying, string CaptainName, uint CaptainAge, int Weapon, double Delta)
+            : base(Carrying, CaptainName, CaptainAge, Delta)
         {
             this.Weapon = Weapon;
             ToWater();

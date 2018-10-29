@@ -8,9 +8,12 @@ namespace LAB5
 {
     sealed class Steamer : Ship
     {
-        public Steamer(double Carrying, string CaptainName, uint CaptainAge)
-            :base(Carrying, CaptainName, CaptainAge)
+        public uint Seats { get; set; }
+
+        public Steamer(double Carrying, string CaptainName, uint CaptainAge, double Delta, uint Seats)
+            :base(Carrying, CaptainName, CaptainAge, Delta)
         {
+            this.Seats = Seats;
             ToWater();
         }
 

@@ -9,7 +9,24 @@ namespace LAB5
     abstract class Ship : Object, IVehicle, ICaptain
     {
         public string VehicleName { get; set; }
-        public double Carrying { get; set; }
+        private double delta;
+        public double Delta { get { return delta; }
+            set
+            {
+                if (value >= 1)
+                    throw new VehicleException("Неверный коэфициент дельта", value);
+                delta = value;
+            }
+        }
+        private double carrying;
+        public double Carrying { get { return carrying; }
+            set
+            {
+                if (value <= 0)
+                    throw new VehicleException("Неверное значение грузоподъемности", value);
+                carrying = value;
+            }
+        }
         public string CaptainName { get; set; }
         public uint CaptainAge { get; set; }
 
@@ -19,12 +36,13 @@ namespace LAB5
         public virtual void GetVehicleInf() => Console.WriteLine($"Vehicle: {VehicleName}, Carrying: {Carrying}, Captain: {CaptainName}");
         public void ToWater() => Console.WriteLine("To search adventure");
 
-        protected Ship(double Carrying, string CaptainName, uint CaptainAge)
+        protected Ship(double Carrying, string CaptainName, uint CaptainAge, double Delta)
         {
             VehicleName = "Ship";
             this.Carrying = Carrying;
             this.CaptainName = CaptainName;
             this.CaptainAge = CaptainAge;
+            this.Delta = Delta;
         }
 
         void ICaptain.OneNameMethod() => Console.WriteLine("Hi, i'm from Captain interface!");
