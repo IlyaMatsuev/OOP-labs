@@ -1,0 +1,7 @@
+D:\university\2 curse\ооп\9\LAB9\LAB9\bin\Debug\LAB9.exe.config
+D:\university\2 curse\ооп\9\LAB9\LAB9\bin\Debug\LAB9.exe
+D:\university\2 curse\ооп\9\LAB9\LAB9\bin\Debug\LAB9.pdb
+D:\university\2 curse\ооп\9\LAB9\LAB9\obj\Debug\LAB9.csprojAssemblyReference.cache
+D:\university\2 curse\ооп\9\LAB9\LAB9\obj\Debug\LAB9.csproj.CoreCompileInputs.cache
+D:\university\2 curse\ооп\9\LAB9\LAB9\obj\Debug\LAB9.exe
+D:\university\2 curse\ооп\9\LAB9\LAB9\obj\Debug\LAB9.pdb
