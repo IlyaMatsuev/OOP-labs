@@ -1,0 +1,7 @@
+D:\university\2 curse\ооп\10\lab10\lab10\bin\Debug\lab10.exe.config
+D:\university\2 curse\ооп\10\lab10\lab10\bin\Debug\lab10.exe
+D:\university\2 curse\ооп\10\lab10\lab10\bin\Debug\lab10.pdb
+D:\university\2 curse\ооп\10\lab10\lab10\obj\Debug\lab10.csprojAssemblyReference.cache
+D:\university\2 curse\ооп\10\lab10\lab10\obj\Debug\lab10.csproj.CoreCompileInputs.cache
+D:\university\2 curse\ооп\10\lab10\lab10\obj\Debug\lab10.exe
+D:\university\2 curse\ооп\10\lab10\lab10\obj\Debug\lab10.pdb
