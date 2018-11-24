@@ -1,0 +1,7 @@
+D:\university\2 curse\ооп\11\lab11\lab11\bin\Debug\lab11.exe.config
+D:\university\2 curse\ооп\11\lab11\lab11\bin\Debug\lab11.exe
+D:\university\2 curse\ооп\11\lab11\lab11\bin\Debug\lab11.pdb
+D:\university\2 curse\ооп\11\lab11\lab11\obj\Debug\lab11.csprojAssemblyReference.cache
+D:\university\2 curse\ооп\11\lab11\lab11\obj\Debug\lab11.csproj.CoreCompileInputs.cache
+D:\university\2 curse\ооп\11\lab11\lab11\obj\Debug\lab11.exe
+D:\university\2 curse\ооп\11\lab11\lab11\obj\Debug\lab11.pdb
