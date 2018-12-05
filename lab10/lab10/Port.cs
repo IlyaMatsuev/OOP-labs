@@ -22,7 +22,10 @@ namespace lab10
             get
             {
                 if (index > maxIndex)
-                { Console.WriteLine("Invalid index"); return null; }
+                {
+                    Console.WriteLine("Invalid index");
+                    return null;
+                }
                 return shipsArr[index];
             }
             set
