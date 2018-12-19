@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Port xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <maxIndex>4</maxIndex>
+  <shipsArr>
+    <Ship Carrying="123" CaptainName="Vitya" />
+    <Ship Carrying="34.3" CaptainName="Ilya" />
+    <Ship Carrying="5.3" CaptainName="Max" />
+    <Ship Carrying="38.6" CaptainName="Olya" />
+    <Ship xsi:nil="true" />
+  </shipsArr>
+</Port>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<phones>
+  <phone name="iPhone 6">
+    <company>Apple</company>
+  </phone>
+  <phone name="iPhone 7">
+    <company>Apple</company>
+  </phone>
+  <phone name="iPhone 8">
+    <company>Apple</company>
+  </phone>
+  <phone name="Samsung Galaxy S5">
+    <company>Samsung</company>
+    <price>33000</price>
+  </phone>
+</phones>
