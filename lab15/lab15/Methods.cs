@@ -13,8 +13,7 @@ namespace lab15
     public static class Methods
     {
         private static object locker = new object();
-        private static string oddNum = "";
-        private static string evenNum = "";
+        private static string oddAbdEvenNum = "";
 
         public static void OddAndEvenNumbersToConsole(object num)
         {
@@ -28,7 +27,7 @@ namespace lab15
                     {
                         string str = "Odd Thread: " + i + '\n';
                         Console.Write(str);
-                        oddNum += str;
+                        oddAbdEvenNum += str;
                         Thread.Sleep(0);
                         //Thread.Sleep(100);
                     }
@@ -36,7 +35,7 @@ namespace lab15
                     {
                         string str = "Even Thread: " + i + '\n';
                         Console.Write(str);
-                        evenNum += str;
+                        oddAbdEvenNum += str;
                         Thread.Sleep(0);
                         //Thread.Sleep(100);
                     }
@@ -48,8 +47,7 @@ namespace lab15
         {
             using (StreamWriter sw = new StreamWriter(@"OddEvenNumbers.txt", false, Encoding.Default))
             {
-                sw.Write(oddNum);
-                sw.Write(evenNum);
+                sw.Write(oddAbdEvenNum);
             }
         }
 
@@ -106,6 +104,66 @@ namespace lab15
         private static void DomainAssLoadEvent(object sender, AssemblyLoadEventArgs args) => Console.WriteLine("Сборка загружена");
 
 
+
+        public static void HardTask1()
+        {
+            Thread auto1 = new Thread(HardTaskHandler);
+            Thread auto2 = new Thread(HardTaskHandler);
+            Thread auto3 = new Thread(HardTaskHandler);
+            auto1.Name = "auto1";
+            auto1.Priority = ThreadPriority.Lowest;
+            auto2.Name = "auto2";
+            auto2.Priority = ThreadPriority.Highest;
+            auto3.Name = "auto3";
+            auto3.Priority = ThreadPriority.Highest;
+            string file = "";
+            using (StreamReader reader = new StreamReader(@"Warehouse.txt", Encoding.Default))
+            {
+                file = reader.ReadToEnd();
+            }
+            auto1.Start(file);
+            auto2.Start(file);
+            auto3.Start(file);
+
+            Console.ReadLine();
+            Console.WriteLine("====================================================");
+        }
+
+        public static void HardTaskHandler(object file)
+        {
+            lock (locker)
+            {
+                string reader = (string)file;
+                string product = "";
+                foreach (var ch in reader)
+                    if (ch == '\n')
+                    {
+                        Console.WriteLine(Thread.CurrentThread.Name + " load a box of " + product);
+                        product = "";
+                        Thread.Sleep(0);
+                    }
+                    else
+                        product += ch;
+                Console.WriteLine("\n " + Thread.CurrentThread.Name + " HAS DONE\n");
+            }
+        }
+
+        public static void HardTask2()
+        {
+            List<Client> clients = new List<Client>()
+            {
+                new Client("Ilya"),
+                new Client("Anya"),
+                new Client("Kolya"),
+                new Client("Ivan"),
+                new Client("Nastya")
+            };
+            foreach (var cl in clients)
+                ResourcePull.ConnectClient(cl);
+
+            Console.ReadLine();
+            Console.WriteLine("====================================================");
+        }
 
     }
 }

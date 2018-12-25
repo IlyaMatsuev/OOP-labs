@@ -1,20 +1,10 @@
-ProcName: csrss
-ProcId: 16808
+ProcName: ctfmon
+ProcId: 9144
 
 
 
-ProcName: chrome
-ProcId: 1720
-
-
-
-ProcName: taskhostw
-ProcId: 4736
-
-
-
-ProcName: PerfWatson2
-ProcId: 12924
+ProcName: svchost
+ProcId: 16804
 
 
 
@@ -23,8 +13,13 @@ ProcId: 3872
 
 
 
-ProcName: chrome
-ProcId: 12056
+ProcName: svchost
+ProcId: 17232
+
+
+
+ProcName: RAVCpl64
+ProcId: 420
 
 
 
@@ -33,23 +28,13 @@ ProcId: 3004
 
 
 
-ProcName: ShellExperienceHost
-ProcId: 14208
-
-
-
-ProcName: AcroRd32
-ProcId: 15068
+ProcName: ServiceHub.VSDetouredHost
+ProcId: 13776
 
 
 
 ProcName: svchost
 ProcId: 2136
-
-
-
-ProcName: chrome
-ProcId: 13616
 
 
 
@@ -63,18 +48,13 @@ ProcId: 7300
 
 
 
-ProcName: chrome
-ProcId: 11572
-
-
-
 ProcName: svchost
 ProcId: 828
 
 
 
-ProcName: ServiceHub.IdentityHost
-ProcId: 14188
+ProcName: chrome
+ProcId: 17200
 
 
 
@@ -88,28 +68,23 @@ ProcId: 2116
 
 
 
+ProcName: SkypeBackgroundHost
+ProcId: 10304
+
+
+
 ProcName: svchost
 ProcId: 4268
 
 
 
-ProcName: WmiApSrv
-ProcId: 4052
+ProcName: conhost
+ProcId: 16576
 
 
 
-ProcName: RAVCpl64
-ProcId: 14388
-
-
-
-ProcName: winlogon
-ProcId: 16760
-
-
-
-ProcName: svchost
-ProcId: 10292
+ProcName: WmiPrvSE
+ProcId: 2744
 
 
 
@@ -119,17 +94,12 @@ ProcId: 1104
 
 
 ProcName: svchost
-ProcId: 17184
+ProcId: 1668
 
 
 
-ProcName: egui
-ProcId: 16752
-
-
-
-ProcName: audiodg
-ProcId: 14596
+ProcName: svchost
+ProcId: 4684
 
 
 
@@ -138,8 +108,8 @@ ProcId: 372
 
 
 
-ProcName: RuntimeBroker
-ProcId: 7436
+ProcName: svchost
+ProcId: 13584
 
 
 
@@ -148,28 +118,33 @@ ProcId: 360
 
 
 
+ProcName: cmd
+ProcId: 16736
+
+
+
 ProcName: svchost
 ProcId: 2080
 
 
 
-ProcName: RuntimeBroker
-ProcId: 16300
-
-
-
-ProcName: ServiceHub.Host.CLR.x86
-ProcId: 6816
-
-
-
 ProcName: chrome
-ProcId: 1344
+ProcId: 15440
 
 
 
-ProcName: NVDisplay.Container
-ProcId: 10612
+ProcName: RuntimeBroker
+ProcId: 4232
+
+
+
+ProcName: conhost
+ProcId: 9828
+
+
+
+ProcName: ServiceHub.SettingsHost
+ProcId: 17756
 
 
 
@@ -178,18 +153,18 @@ ProcId: 2496
 
 
 
+ProcName: ServiceHub.IdentityHost
+ProcId: 5512
+
+
+
 ProcName: svchost
 ProcId: 6372
 
 
 
-ProcName: RAVBg64
-ProcId: 13136
-
-
-
 ProcName: explorer
-ProcId: 15804
+ProcId: 6800
 
 
 
@@ -208,8 +183,18 @@ ProcId: 2484
 
 
 
-ProcName: devenv
-ProcId: 8948
+ProcName: RuntimeBroker
+ProcId: 17136
+
+
+
+ProcName: RAVBg64
+ProcId: 15972
+
+
+
+ProcName: svchost
+ProcId: 3980
 
 
 
@@ -218,28 +203,23 @@ ProcId: 2476
 
 
 
-ProcName: chrome
-ProcId: 15396
+ProcName: ServiceHub.Host.CLR.x86
+ProcId: 17600
 
 
 
-ProcName: chrome
-ProcId: 7204
+ProcName: RuntimeBroker
+ProcId: 10224
+
+
+
+ProcName: svchost
+ProcId: 11516
 
 
 
 ProcName: svchost
 ProcId: 3324
-
-
-
-ProcName: chrome
-ProcId: 14324
-
-
-
-ProcName: fontdrvhost
-ProcId: 588
 
 
 
@@ -258,13 +238,13 @@ ProcId: 724
 
 
 
-ProcName: SkypeBackgroundHost
-ProcId: 14080
-
-
-
 ProcName: chrome
-ProcId: 13648
+ProcId: 12720
+
+
+
+ProcName: DMedia
+ProcId: 2872
 
 
 
@@ -273,18 +253,8 @@ ProcId: 716
 
 
 
-ProcName: svchost
-ProcId: 1668
-
-
-
-ProcName: AcroRd32
-ProcId: 14936
-
-
-
-ProcName: WmiPrvSE
-ProcId: 10624
+ProcName: nvcontainer
+ProcId: 7180
 
 
 
@@ -293,8 +263,13 @@ ProcId: 5020
 
 
 
-ProcName: conhost
-ProcId: 8124
+ProcName: VBCSCompiler
+ProcId: 18380
+
+
+
+ProcName: egui
+ProcId: 12532
 
 
 
@@ -303,8 +278,18 @@ ProcId: 1992
 
 
 
+ProcName: igfxEM
+ProcId: 9748
+
+
+
 ProcName: svchost
 ProcId: 7592
+
+
+
+ProcName: ATKOSD2
+ProcId: 9312
 
 
 
@@ -318,8 +303,13 @@ ProcId: 3276
 
 
 
-ProcName: RuntimeBroker
-ProcId: 6720
+ProcName: chrome
+ProcId: 10816
+
+
+
+ProcName: MSBuild
+ProcId: 10600
 
 
 
@@ -328,13 +318,28 @@ ProcId: 2408
 
 
 
-ProcName: svchost
-ProcId: 14044
+ProcName: ServiceHub.RoslynCodeAnalysisService32
+ProcId: 17532
+
+
+
+ProcName: LockApp
+ProcId: 1972
 
 
 
 ProcName: AsLdrSrv
 ProcId: 3264
+
+
+
+ProcName: svchost
+ProcId: 15976
+
+
+
+ProcName: backgroundTaskHost
+ProcId: 11880
 
 
 
@@ -348,18 +353,13 @@ ProcId: 6704
 
 
 
-ProcName: RuntimeBroker
-ProcId: 5408
-
-
-
 ProcName: svchost
 ProcId: 2388
 
 
 
-ProcName: ATKOSD2
-ProcId: 13160
+ProcName: ShellExperienceHost
+ProcId: 7556
 
 
 
@@ -373,13 +373,8 @@ ProcId: 4100
 
 
 
-ProcName: ScriptedSandbox64
-ProcId: 6252
-
-
-
-ProcName: StandardCollector.Service
-ProcId: 9268
+ProcName: audiodg
+ProcId: 13580
 
 
 
@@ -388,13 +383,13 @@ ProcId: 1508
 
 
 
-ProcName: ServiceHub.RoslynCodeAnalysisService32
-ProcId: 7968
+ProcName: esif_uf
+ProcId: 3888
 
 
 
-ProcName: dasHost
-ProcId: 4516
+ProcName: fontdrvhost
+ProcId: 1068
 
 
 
@@ -403,8 +398,23 @@ ProcId: 1928
 
 
 
-ProcName: SkypeBridge
-ProcId: 7956
+ProcName: chrome
+ProcId: 7256
+
+
+
+ProcName: GoogleUpdate
+ProcId: 16148
+
+
+
+ProcName: winlogon
+ProcId: 8388
+
+
+
+ProcName: devenv
+ProcId: 4508
 
 
 
@@ -413,18 +423,8 @@ ProcId: 3212
 
 
 
-ProcName: Microsoft.Notes
-ProcId: 6228
-
-
-
 ProcName: chrome
-ProcId: 16140
-
-
-
-ProcName: SettingSyncHost
-ProcId: 1484
+ProcId: 6228
 
 
 
@@ -438,13 +438,13 @@ ProcId: 2344
 
 
 
-ProcName: lab15
-ProcId: 9344
-
-
-
 ProcName: svchost
 ProcId: 4060
+
+
+
+ProcName: SkypeApp
+ProcId: 17004
 
 
 
@@ -453,8 +453,8 @@ ProcId: 2332
 
 
 
-ProcName: Core Temp
-ProcId: 12672
+ProcName: WmiApSrv
+ProcId: 4052
 
 
 
@@ -463,13 +463,13 @@ ProcId: 7068
 
 
 
-ProcName: svchost
-ProcId: 16548
+ProcName: ServiceHub.Host.Node.x86
+ProcId: 9380
 
 
 
-ProcName: chrome
-ProcId: 9516
+ProcName: RuntimeBroker
+ProcId: 11376
 
 
 
@@ -478,38 +478,28 @@ ProcId: 4044
 
 
 
-ProcName: dwm
-ProcId: 12232
-
-
-
 ProcName: WUDFHost
 ProcId: 752
 
 
 
-ProcName: MSBuild
-ProcId: 12944
+ProcName: lab15
+ProcId: 11068
 
 
 
-ProcName: svchost
-ProcId: 4036
+ProcName: csrss
+ProcId: 6192
 
 
 
-ProcName: chrome
-ProcId: 17396
+ProcName: fontdrvhost
+ProcId: 588
 
 
 
 ProcName: svchost
 ProcId: 3964
-
-
-
-ProcName: svchost
-ProcId: 16532
 
 
 
@@ -523,13 +513,13 @@ ProcId: 4028
 
 
 
-ProcName: ServiceHub.Host.Node.x86
-ProcId: 15664
+ProcName: conhost
+ProcId: 13884
 
 
 
-ProcName: nvcontainer
-ProcId: 16524
+ProcName: RuntimeBroker
+ProcId: 13076
 
 
 
@@ -538,8 +528,8 @@ ProcId: 3256
 
 
 
-ProcName: services
-ProcId: 912
+ProcName: SettingSyncHost
+ProcId: 14796
 
 
 
@@ -548,13 +538,8 @@ ProcId: 4020
 
 
 
-ProcName: ServiceHub.DataWarehouseHost
-ProcId: 16516
-
-
-
-ProcName: chrome
-ProcId: 11772
+ProcName: svchost
+ProcId: 15652
 
 
 
@@ -568,8 +553,8 @@ ProcId: 560
 
 
 
-ProcName: LockApp
-ProcId: 15644
+ProcName: SearchUI
+ProcId: 17248
 
 
 
@@ -608,38 +593,13 @@ ProcId: 3564
 
 
 
-ProcName: VBCSCompiler
-ProcId: 14768
-
-
-
-ProcName: ServiceHub.VSDetouredHost
-ProcId: 17352
-
-
-
-ProcName: chrome
-ProcId: 15196
-
-
-
 ProcName: svchost
 ProcId: 3988
 
 
 
-ProcName: esif_uf
-ProcId: 3888
-
-
-
-ProcName: chrome
-ProcId: 13468
-
-
-
-ProcName: HControl
-ProcId: 5708
+ProcName: svchost
+ProcId: 16548
 
 
 
@@ -653,13 +613,8 @@ ProcId: 1396
 
 
 
-ProcName: cmd
-ProcId: 2248
-
-
-
-ProcName: svchost
-ProcId: 3980
+ProcName: nvcontainer
+ProcId: 9844
 
 
 
@@ -678,18 +633,13 @@ ProcId: 2252
 
 
 
-ProcName: RuntimeBroker
-ProcId: 12164
-
-
-
-ProcName: DMedia
-ProcId: 8284
-
-
-
 ProcName: nvcontainer
 ProcId: 3972
+
+
+
+ProcName: dasHost
+ProcId: 4516
 
 
 
@@ -698,23 +648,8 @@ ProcId: 3108
 
 
 
-ProcName: chrome
-ProcId: 6124
-
-
-
-ProcName: fontdrvhost
-ProcId: 14740
-
-
-
 ProcName: svchost
 ProcId: 5688
-
-
-
-ProcName: chrome
-ProcId: 13876
 
 
 
@@ -723,18 +658,13 @@ ProcId: 3528
 
 
 
+ProcName: PerfWatson2
+ProcId: 8268
+
+
+
 ProcName: IntelCpHDCPSvc
 ProcId: 3956
-
-
-
-ProcName: Microsoft.Notes.DesktopBridge
-ProcId: 9912
-
-
-
-ProcName: nvcontainer
-ProcId: 16448
 
 
 
@@ -748,23 +678,13 @@ ProcId: 928
 
 
 
-ProcName: ctfmon
-ProcId: 10840
-
-
-
-ProcName: conhost
-ProcId: 12132
-
-
-
 ProcName: IntelCpHeciSvc
 ProcId: 4804
 
 
 
-ProcName: svchost
-ProcId: 11268
+ProcName: Memory Compression
+ProcId: 2648
 
 
 
@@ -778,13 +698,23 @@ ProcId: 1784
 
 
 
-ProcName: SearchUI
-ProcId: 14708
+ProcName: NVDisplay.Container
+ProcId: 16868
 
 
 
 ProcName: conhost
-ProcId: 10828
+ProcId: 7384
+
+
+
+ProcName: svchost
+ProcId: 9104
+
+
+
+ProcName: HControl
+ProcId: 6948
 
 
 
@@ -793,8 +723,8 @@ ProcId: 3068
 
 
 
-ProcName: chrome
-ProcId: 16428
+ProcName: services
+ProcId: 912
 
 
 
@@ -808,8 +738,8 @@ ProcId: 1772
 
 
 
-ProcName: conhost
-ProcId: 15132
+ProcName: dwm
+ProcId: 16852
 
 
 
@@ -823,13 +753,13 @@ ProcId: 1764
 
 
 
-ProcName: ServiceHub.SettingsHost
-ProcId: 16848
+ProcName: taskhostw
+ProcId: 15124
 
 
 
-ProcName: Memory Compression
-ProcId: 2648
+ProcName: svchost
+ProcId: 16844
 
 
 
@@ -843,18 +773,18 @@ ProcId: 3912
 
 
 
+ProcName: RuntimeBroker
+ProcId: 9944
+
+
+
 ProcName: svchost
 ProcId: 2184
 
 
 
-ProcName: svchost
-ProcId: 4684
-
-
-
-ProcName: sihost
-ProcId: 9940
+ProcName: SkypeBridge
+ProcId: 16404
 
 
 
@@ -863,18 +793,8 @@ ProcId: 3904
 
 
 
-ProcName: igfxEM
-ProcId: 7780
-
-
-
-ProcName: SkypeApp
-ProcId: 7348
-
-
-
-ProcName: RuntimeBroker
-ProcId: 12088
+ProcName: Core Temp
+ProcId: 15108
 
 
 
@@ -885,6 +805,11 @@ ProcId: 1312
 
 ProcName: svchost
 ProcId: 448
+
+
+
+ProcName: svchost
+ProcId: 15532
 
 
 
@@ -913,8 +838,18 @@ ProcId: 3456
 
 
 
+ProcName: sihost
+ProcId: 14300
+
+
+
 ProcName: System
 ProcId: 4
+
+
+
+ProcName: svchost
+ProcId: 7760
 
 
 

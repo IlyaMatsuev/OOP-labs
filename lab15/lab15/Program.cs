@@ -52,6 +52,8 @@ namespace lab15
             }
             else
                 Console.WriteLine("Thread is dead\n\n");
+
+            Console.ReadLine();
             Console.WriteLine("====================================================");
 
             Thread oddThread = new Thread(Methods.OddAndEvenNumbersToConsole);
@@ -71,6 +73,8 @@ namespace lab15
             // Waiting for end of processes
             Thread.Sleep(2000);
             Methods.OddAndEvenNumbersToFile();
+
+            Console.ReadLine();
             Console.WriteLine("====================================================");
 
             TimerCallback tm = new TimerCallback(RandomTimerMethod);
@@ -80,7 +84,9 @@ namespace lab15
             Console.WriteLine("====================================================");
 
 
-            // Coming soon
+            Methods.HardTask1();
+            //Methods.HardTask2();
+
         }
 
         static void WriteNumbersEverywhere(object num)
