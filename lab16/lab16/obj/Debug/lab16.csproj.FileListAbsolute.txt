@@ -1,0 +1,7 @@
+D:\university\2 curse\ооп\16\lab16\lab16\bin\Debug\lab16.exe.config
+D:\university\2 curse\ооп\16\lab16\lab16\bin\Debug\lab16.exe
+D:\university\2 curse\ооп\16\lab16\lab16\bin\Debug\lab16.pdb
+D:\university\2 curse\ооп\16\lab16\lab16\obj\Debug\lab16.csprojAssemblyReference.cache
+D:\university\2 curse\ооп\16\lab16\lab16\obj\Debug\lab16.csproj.CoreCompileInputs.cache
+D:\university\2 curse\ооп\16\lab16\lab16\obj\Debug\lab16.exe
+D:\university\2 curse\ооп\16\lab16\lab16\obj\Debug\lab16.pdb
